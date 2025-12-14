@@ -2,7 +2,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📌 **Project Overview**
+## 📌 **Project Overview** [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Linear%20Regression%20KNIME%20Workflow.png]
 
 This project demonstrates an end-to-end Linear Regression pipeline built using the KNIME Analytics Platform to predict a continuous target variable (Sales_Revenue). The workflow focuses on real-world data preprocessing, model training, prediction, and evaluation, all without writing traditional code.
 
@@ -10,7 +10,7 @@ This project demonstrates an end-to-end Linear Regression pipeline built using t
 
 ## 🔁 **Workflow (Step-by-Step)**
 
-### 1️⃣ **Convert “?” to Missing Values (Data Cleaning)**
+### 1️⃣ **Convert “?” to Missing Values (Data Cleaning)** [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Column%20Expression%20Configuration.png]
 
 Real-world datasets often represent missing values using symbols like "?".
 
@@ -20,7 +20,7 @@ Why this is important:
 
 Models cannot work with text symbols in numeric columns.
 
-### 2️⃣ **Missing Value Column Filter (Feature Selection)**
+### 2️⃣ **Missing Value Column Filter (Feature Selection)** [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Missing%20Value%20Column%20Filter%20Configuration.png]
 
 This node removes columns that contain too many missing values (for example, more than 40%).
 
@@ -30,7 +30,7 @@ Why this is important:
 
 Keeps only meaningful and reliable features for training the regression model.
 
-### 3️⃣ **Missing Value Node (Imputation)**
+### 3️⃣ **Missing Value Node (Imputation)** [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Missing%20Value%20Configuration.png]
 
 After removing bad columns, remaining missing values are handled using statistical methods:
 
@@ -42,7 +42,7 @@ Why this is important:
 
 Ensures the dataset has no missing values before model training.
 
-### 4️⃣ **Column Auto Type Cast (Data Type Fixing)**
+### 4️⃣ **Column Auto Type Cast (Data Type Fixing)** [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Column%20Auto-Type%20Cast%20Configuration%20.png]
 
 This node automatically converts columns to the correct data types (e.g., String → Double).
 
@@ -52,7 +52,7 @@ Why this is important:
 
 Prevents errors during model training caused by incorrect data types.
 
-### 5️⃣ **Table Partitioner (Train–Test Split)**
+### 5️⃣ **Table Partitioner (Train–Test Split)** [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Table%20Partitioner%20Configuration.png]
 
 The cleaned dataset is split into:
 
@@ -64,7 +64,7 @@ Why this is important:
 
 Allows the model to be trained on one portion of data and evaluated on unseen data.
 
-### 6️⃣ **Linear Regression Learner (Model Training)**
+### 6️⃣ **Linear Regression Learner (Model Training)** [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Linear%20Regression%20Learner%20Configuration.png]
 
 This node trains a Linear Regression model using the training dataset.
 
@@ -74,19 +74,19 @@ Why this is important:
 
 This is the core machine learning step where the predictive model is created.
 
-### 7️⃣ **Regression Predictor (Prediction)**
+### 7️⃣ **Regression Predictor (Prediction)** [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Regression%20Predictor%20Configration.png]
 
 The trained model is applied to the test dataset to generate predictions.
 
-A new column (Predicted Sales_Revenue) is added to the output.
+A new column (Predicted Sales_Revenue) is added to the output. [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Regression%20Predictor%20Table.png]
 
 Why this is important:
 
 Shows how well the model can predict unseen data.
 
-### 8️⃣ **Numeric Scorer (Model Evaluation)**
+### 8️⃣ **Numeric Scorer (Model Evaluation)** [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Numeric%20Scorer%20Configuration.png]
 
-The model’s performance is evaluated using regression metrics such as:
+The model’s performance is evaluated using regression metrics such as: [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Numeric%20Scorer%20Statistics%20.png]
 
 - R²
 
@@ -98,7 +98,7 @@ Why this is important:
 
 Helps measure prediction accuracy and overall model quality.
 
-### 9️⃣ **Visualization**
+### 9️⃣ **Visualization** [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Visualisation%20Chart.png]
 
 - A scatter or line plot can be created to visually compare:
 
