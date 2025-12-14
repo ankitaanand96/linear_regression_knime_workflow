@@ -2,7 +2,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📌 **Project Overview** [https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Linear%20Regression%20KNIME%20Workflow.png]
+## 📌 **Project Overview[https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Linear%20Regression%20KNIME%20Workflow.png]**
 
 This project demonstrates an end-to-end Linear Regression pipeline built using the KNIME Analytics Platform to predict a continuous target variable (Sales_Revenue). The workflow focuses on real-world data preprocessing, model training, prediction, and evaluation, all without writing traditional code.
 
