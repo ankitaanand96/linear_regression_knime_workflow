@@ -4,7 +4,7 @@
 
 ## 📌 **[Project Overview](https://github.com/ankitaanand96/linear_regression_knime_workflow/blob/main/Linear%20Regression%20KNIME%20Workflow.png)**
 
-This project demonstrates an end-to-end Linear Regression workflow built using the KNIME Analytics Platform to predict sales revenue based on multiple business and operational features. The workflow covers the complete data science lifecycle — from data cleaning and preprocessing to model training, prediction, and evaluation. Special attention is given to handling missing values, converting data types, and ensuring the dataset is suitable for regression modeling. The final output evaluates model performance using standard regression metrics such as RMSE, MAE, and R².
+This project demonstrates an end-to-end Linear Regression workflow built using the KNIME Analytics Platform to predict sales revenue based on multiple business and operational features. The workflow covers the complete data science lifecycle - from data cleaning and preprocessing to model training, prediction, and evaluation. Special attention is given to handling missing values, converting data types, and ensuring the dataset is suitable for regression modeling. The final output evaluates model performance using standard regression metrics such as RMSE, MAE, and R².
 
 The project is implemented using KNIME’s no-code / low-code approach, making it easy to understand and reproduce even for users without strong programming backgrounds.
 
@@ -76,9 +76,9 @@ Prevents errors during model training caused by incorrect data types.
 
 The cleaned dataset is split into:
 
-i. Training set (e.g., 70%)
+i. Training set (e.g., 70% or 80%)
 
-ii. Testing set (e.g., 30%)
+ii. Testing set (e.g., 30% or 20%)
 
 Why this is important:
 
